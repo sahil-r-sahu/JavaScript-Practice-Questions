@@ -15,18 +15,19 @@ All games are fully responsive and playable online via GitHub Pages.
 > More games coming soon... 🛠️
 
 ---
+### 🖼️ Preview
 
-## 📸 Preview 
+#### 🪨✂️📄 Rock Paper Scissors  
+![Rock Paper Scissors Preview]( Rock-Paper-Scissors/img/Screenshot%20.png)
 
-🖥️ **Landing Page:**  
-[🔗 Rock-Paper-Scissors]( Rock-Paper-Scissors/img/Screenshot%20.png )  
-[🔗 Tic-Tac-toe]( tic-tac-toe/img/screenshot.png )  
+#### ❌⭕ Tic Tac Toe  
+![Tic Tac Toe Preview](tic-tac-toe/img/screenshot.png )
 
 ---
 
 ## 📬 Contact Me
 
-**GitHub**: [@saahil-sahu](https://github.com/saahil-sahu)
+**GitHub**: [@saahil-sahu](https://github.com/saahil-sahu) <br>
 **LinkedIn**: [sahil-r-sahu](https://www.linkedin.com/in/sahil-r-sahu/) 
 
 ---
