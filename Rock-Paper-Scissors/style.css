@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background: white;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    height: 5rem;
+    width: auto;
+    line-height: 5rem;
+    /* if we give line-height to a text as same as the height of the box ------- it with appear in the centered vertically */
+}
+
+.select {
+    height: 30vw;
+    width: 30vw;
+    /* By using relative units(%, rem, vw, vh) makes the webpage more responsive. As px are fixed they dont change. */
+    max-width: 275px;
+    max-height: 275px;
+    /* max-width ensures that on very large screens, it won’t exceed 275px (desktop safety). */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 90%;
+    width: 90%;
+    /* as img is a bit distorted we can fit it to cover the div box */
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap allows items to move to the next line when there's no space. As on the small screen imgs can overflow amd become small. */
+    margin: 2.4rem 1rem;
+}
+.select:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    background: black;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    font-size: 2rem;
+    margin: 3rem;
+}
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+.msg-container{
+    padding: 1rem;
+}
+#msg{
+    background: #000;
+    color: white;
+    font-size: 2rem;
+    width: auto;
+    border-radius: 50px;
+}
+
+#reset-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
