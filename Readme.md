@@ -9,8 +9,8 @@ All games are fully responsive and playable online via GitHub Pages.
 
 | Game                         | Live Demo Link                                                                                    |
 |------------------------------|---------------------------------------------------------------------------------------------------|
-| 🪨✂️📄 Rock Paper Scissors  | [▶️ Play Now](https://saahil-sahu.github.io/JavaScript-Practice-Questions/Rock-Paper-Scissors/index.html)  |
-| ❌⭕ Tic Tac Toe            | [▶️ Play Now](https://saahil-sahu.github.io/JavaScript-Practice-Questions/tic-tac-toe/index.html)           |
+| 🪨✂️📄 Rock Paper Scissors  | [▶️ Play Now](https://sahil-r-sahu.github.io/JavaScript-Practice-Questions/Rock-Paper-Scissors/index.html)  |
+| ❌⭕ Tic Tac Toe            | [▶️ Play Now](https://sahil-r-sahu.github.io/JavaScript-Practice-Questions/tic-tac-toe/index.html)           |
 
 > More games coming soon... 🛠️
 
@@ -27,13 +27,13 @@ All games are fully responsive and playable online via GitHub Pages.
 
 ## 📬 Contact Me
 
-**GitHub**: [@saahil-sahu](https://github.com/saahil-sahu) <br>
+**GitHub**: [@sahil-r-sahu](https://github.com/sahil-r-sahu) <br>
 **LinkedIn**: [sahil-r-sahu](https://www.linkedin.com/in/sahil-r-sahu/) 
 
 ---
 ## 👨‍💻 Author
 
-**Saahil Sahu**  
+**Saahil**  
 
 ---
 
