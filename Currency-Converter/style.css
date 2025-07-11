@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.navbar-content {
+    width: 95%;
+    max-width: 1400px;
+    height: 10vh;
+    padding: 0.2rem 0;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* → If your navbar 80%(less than 100%) of the viewport width.
+    But it’s not centered yet → you need margin: auto; to center horizontally */
+    margin: 0 auto;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+    width: 100%;
+    border-radius: 1rem;
+    filter: brightness(0.95);
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Don't give width & height to links & buttons this will fixed their size and the layout. Instead change the font-size & give some paddingto them. */
+button {
+    background: rgb(255, 196, 79);
+    color: black;
+    padding: 0.4rem 0.8rem;
+    /* height: 4vh; */
+    /* width: 5vw; */
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(249, 1, 22);
+    cursor: pointer;
+}
+
+select {
+    background: rgb(244, 233, 165);
+    color: black;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(243, 126, 0);
+    cursor: pointer;
+
+}

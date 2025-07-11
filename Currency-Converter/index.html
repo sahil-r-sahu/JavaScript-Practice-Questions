@@ -1,27 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currency Converter </title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
+    <div class="navbar">
+        <div class="navbar-content">
+            <div class="logo">
+                <img src="img/logo.jpg" alt="logo" title="We give best services in the world ">
+            </div>
+            <div class="navlinks">
+                <button id="login "> Login </button>
+                <button id="register"> Register </button>
+                <label for="product options">Try Other Products: </label>
+                <select name="product options" id="options" onchange="redirectToProduct(this)">
+                    <option value="" selected disabled hidden> -------Select Products------- </option>
+                    <!-- selected disabled hidden are the default prompt option for hidding the options and keeping 1st option selected -->
+                    <option
+                        value="https://sahil-r-sahu.github.io/JavaScript-Practice-Questions/Rock-Paper-Scissors/index.html">
+                        Rock-Paper-Scissors Game</option>
+                    <option value="https://sahil-r-sahu.github.io/JavaScript-Practice-Questions/tic-tac-toe/index.html">
+                        Tic-Tac-toe Game</option>
+                    <option value="https://sahil-r-sahu.github.io/My-Netflix-India-Clone/"> Netflix Landing Page
+                    </option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
     <div class="container">
         <h2> <b>Currency Converter</b> </h2>
     </div>
-    <form >
+    <form>
         <div class="amount">
             <p>Enter Amount </p>
-            <input value="100" type="text" >
+            <input value="100" type="text">
         </div>
         <div class="dropdown">
             <div class="form">
-                
+
             </div>
         </div>
     </form>
-    
+
 </body>
+
 </html>
