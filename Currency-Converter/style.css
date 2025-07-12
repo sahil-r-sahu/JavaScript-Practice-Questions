@@ -42,7 +42,7 @@ body {
 }
 
 /* Don't give width & height to links & buttons this will fixed their size and the layout. Instead change the font-size & give some paddingto them. */
-button {
+.navbar button {
     background: rgb(255, 196, 79);
     color: black;
     padding: 0.4rem 0.8rem;
@@ -54,7 +54,7 @@ button {
     cursor: pointer;
 }
 
-select {
+.navbar select {
     background: rgb(244, 233, 165);
     color: black;
     padding: 0.4rem;
@@ -63,4 +63,85 @@ select {
     border: 2px solid rgb(243, 126, 0);
     cursor: pointer;
 
+}
+
+body {
+    background: rgb(7, 120, 7);
+}
+
+.head #base-heading {
+    font-size: 3rem;
+    font-weight: 1000;
+    padding: 0.2rem;
+    word-wrap: break-word;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.head #info-heading {
+    font-size: 1.3rem;
+    word-wrap: break-word;
+    animation: fadeIn 10s ease-in-out;
+}
+
+.head {
+    /* Don't do display flex for just centering paragraphs and headinds insteed do text-align: center; */
+    text-align: center;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    gap: 1rem;
+    /* max-width: 1000px; */
+}
+
+.box-1 {
+    background: #efc1c1;
+    width: 60%;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.from-to {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.box-1 select{
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    border: 3px solid rgb(74, 8, 8);
+    cursor: pointer;
+}
+.swap-btn button{
+    font-size: 1.5rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 50%;
+    border: 3px solid rgb(74, 8, 8);
+    background: rgb(255, 196, 79);
+    cursor: pointer;
+}
+
+.box-2 {
+    background: #4a0b0b;
+    width: 35%;
+    height: 25rem;
+    border-radius: 1rem;
 }

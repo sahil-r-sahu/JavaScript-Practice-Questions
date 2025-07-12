@@ -30,31 +30,80 @@
                         Tic-Tac-toe Game</option>
                     <option value="https://sahil-r-sahu.github.io/My-Netflix-India-Clone/"> Netflix Landing Page
                     </option>
+                    <option
+                        value="https://sahil-r-sahu.github.io/JavaScript-Practice-Questions/Currency-Converter/index.html">
+                        Currency Convert </option>
                 </select>
             </div>
         </div>
     </div>
 
-
-
-
-
-
-
-    <div class="container">
-        <h2> <b>Currency Converter</b> </h2>
-    </div>
-    <form>
-        <div class="amount">
-            <p>Enter Amount </p>
-            <input value="100" type="text">
-        </div>
-        <div class="dropdown">
-            <div class="form">
+    <main>
+        <div class="main">
+            <div class="head">
+                <p id="base-heading"> <b> Currency Converter </b></p>
+                <p id="info-heading">Convert 150+ currencies at the mid-market exchange rate.</p>
+                <p id="info-heading">"Fast, accurate, and secure currency conversions."  "Live exchange rates with
+                    historical trends & graphs."
+                </p>
 
             </div>
+            <div class="box">
+                <div class="box-1">
+                    <div class="from-to">
+                        <div class="input-group">
+                            <label for="from-currency"> From: </label>
+                            <select name="from-currency" id="">
+                                <option value="INR"> Indian Ruppe</option>
+                                <option value="USD"> US Dollar</option>
+                            </select>
+                        </div>
+
+                        <div class="swap-btn">
+                            <button id="swap-btn" title="swap-currencies"> ⇄ </button>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="to-currency"> To: </label>
+                            <select name="to-currency" id="">
+                                <option value="USD"> US Dollar </option>
+                                <option value="EUR"> Euro </option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="shortcuts">
+                        <button data-currency="USD">USD</button>
+                        <button data-currency="INR">INR</button>
+                        <button data-currency="EUR">EUR</button>
+                    </div>
+                    <div class="shortcuts">
+                        <button data-currency="USD">USD</button>
+                        <button data-currency="INR">INR</button>
+                        <button data-currency="EUR">EUR</button>
+                    </div>
+
+                    <label for="amount"> Amount: </label>
+                    <input type="number" id="amount" placeholder="Enter Amount " value="100" required>
+
+                    <button class="convert-btn">Convert</button>
+
+                </div>
+
+                <div class="box-2">
+
+                </div>
+            </div>
         </div>
-    </form>
+    </main>
+
+
+
+
+
+
+
+
 
 </body>
 
