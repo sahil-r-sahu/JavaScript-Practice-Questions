@@ -38,53 +38,69 @@
         </div>
     </div>
 
+    <header>
+        <div class="head">
+            <p id="base-heading"> <b> Currency Converter </b></p>
+            <p id="info-heading">Convert 150+ currencies at the mid-market exchange rate.</p>
+            <p id="info-heading">"Fast, accurate, and secure currency conversions." "Live exchange rates with
+                historical trends & graphs."
+            </p>
+        </div>
+    </header>
+
     <main>
         <div class="main">
-            <div class="head">
-                <p id="base-heading"> <b> Currency Converter </b></p>
-                <p id="info-heading">Convert 150+ currencies at the mid-market exchange rate.</p>
-                <p id="info-heading">"Fast, accurate, and secure currency conversions."  "Live exchange rates with
-                    historical trends & graphs."
-                </p>
 
-            </div>
             <div class="box">
                 <div class="box-1">
                     <div class="from-to">
+                        <!-- From -->
                         <div class="input-group">
                             <label for="from-currency"> From: </label>
                             <select name="from-currency" id="">
                                 <option value="INR"> Indian Ruppe</option>
                                 <option value="USD"> US Dollar</option>
                             </select>
+
+                            <div class="shortcuts">
+                                <button data-currency="USD">USD</button>
+                                <button data-currency="INR">INR</button>
+                                <button data-currency="ETH">ETH</button>
+                                <button data-currency="EUR">EUR</button>
+                                <button data-currency="BTC">BTC</button>
+                                <button data-currency="JYP">JYP</button>
+                            </div>
                         </div>
 
+                        <!-- Swap-btn -->
                         <div class="swap-btn">
                             <button id="swap-btn" title="swap-currencies"> ⇄ </button>
                         </div>
 
+                        <!-- To -->
                         <div class="input-group">
                             <label for="to-currency"> To: </label>
                             <select name="to-currency" id="">
                                 <option value="USD"> US Dollar </option>
                                 <option value="EUR"> Euro </option>
                             </select>
+
+                            <div class="shortcuts">
+                                <button data-currency="BTC">BTC</button>
+                                <button data-currency="ETH">ETH</button>
+                                <button data-currency="USD">USD</button>
+                                <button data-currency="INR">INR</button>
+                                <button data-currency="EUR">EUR</button>
+                                <button data-currency="JYP">JYP</button>
+
+                            </div>
                         </div>
                     </div>
 
-                    <div class="shortcuts">
-                        <button data-currency="USD">USD</button>
-                        <button data-currency="INR">INR</button>
-                        <button data-currency="EUR">EUR</button>
+                    <div class="amount">
+                        <label for="amount"> Amount: </label>
+                        <input type="number" id="amount" placeholder="Enter Amount in ${From}" required>
                     </div>
-                    <div class="shortcuts">
-                        <button data-currency="USD">USD</button>
-                        <button data-currency="INR">INR</button>
-                        <button data-currency="EUR">EUR</button>
-                    </div>
-
-                    <label for="amount"> Amount: </label>
-                    <input type="number" id="amount" placeholder="Enter Amount " value="100" required>
 
                     <button class="convert-btn">Convert</button>
 
@@ -96,6 +112,12 @@
             </div>
         </div>
     </main>
+
+
+    <footer>
+
+        
+    </footer>
 
 
 
