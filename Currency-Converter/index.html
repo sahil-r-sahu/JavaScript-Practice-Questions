@@ -65,7 +65,7 @@
                             <div class="shortcuts">
                                 <button data-currency="USD">USD</button>
                                 <button data-currency="INR">INR</button>
-                                <button data-currency="ETH">ETH</button>
+                                <!-- <button data-currency="ETH">ETH</button> -->
                                 <button data-currency="EUR">EUR</button>
                                 <button data-currency="BTC">BTC</button>
                                 <button data-currency="JYP">JYP</button>
@@ -87,7 +87,7 @@
 
                             <div class="shortcuts">
                                 <button data-currency="BTC">BTC</button>
-                                <button data-currency="ETH">ETH</button>
+                                <!-- <button data-currency="ETH">ETH</button> -->
                                 <button data-currency="USD">USD</button>
                                 <button data-currency="INR">INR</button>
                                 <button data-currency="EUR">EUR</button>
@@ -104,10 +104,33 @@
 
                     <button class="convert-btn">Convert</button>
 
+                    <div class="results">
+                        <h2>Conversion results </h2>
+                        <p id="amount-result"> 1000${From amount} = 11.7 ${ to currency}</p>
+                        <p id="exchange-rate">Exchange Rate Applied: 1{from currency} = 87{to currency}</p>
+                    </div>
+
                 </div>
 
                 <div class="box-2">
+                    <div class="charts">
 
+                    </div>
+                    <div class="range-buttons">
+                        <p>Explore Priodic Trents:</p>
+                        <button onclick="updateCurrencyChart(30)">30D</button>
+                        <button onclick="updateCurrencyChart(60)">60D</button>
+                        <button onclick="updateCurrencyChart(90)">90D</button>
+                    </div>
+                    <div class="disclaimer">
+                        Disclaimer:
+                        <p>The currency exchange rates and charts displayed on this website are for informational
+                            purposes only and are based on publicly available data.</p>
+                        <p>Rates may vary and are not guaranteed to be accurate or updated in real time.</p>
+                        <p> This website does not take responsibility for any losses incurred due to reliance on the
+                            provided information.</p>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -116,7 +139,7 @@
 
     <footer>
 
-        
+
     </footer>
 
 
